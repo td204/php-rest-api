@@ -61,7 +61,7 @@ class HttpClient
      * @param int    $connectionTimeout >= 0
      * @param array  $headers
      */
-    public function __construct($endpoint, $timeout = 10, $connectionTimeout = 2, $headers = array())
+    public function __construct($endpoint, $timeout = 10, $connectionTimeout = 5, $headers = array())
     {
         $this->endpoint = $endpoint;
 
